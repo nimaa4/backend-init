@@ -2,6 +2,7 @@ const express = require("express")
 const mongoose = require("mongoose")
 const app = express();
 
+
 //DB Connection
 mongoose.connect(
     "mongodb+srv://nihmatulain2003:XhdLaTIOASswU22o@cluster0.0thuxir.mongodb.net/test"
